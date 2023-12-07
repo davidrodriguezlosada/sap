@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.davidrl.sap</groupId>
+  <artifactId>version-parent-bom-sap</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+
+  <packaging>pom</packaging>
+  <name>reactor-sap</name>
+  <description>SAP reactor</description>
+
+  <modules>
+    <module>db-installer-sap</module>
+    <module>db-entity-sap</module>
+    <module>common-dto-sap</module>
+    <module>common-test-sap</module>
+    <module>common-mapper-sap</module>
+    <module>common-service-sap</module>
+    <module>customer-service-sap</module>
+  </modules>
+
+  <properties>
+    <sap.version>1.0.0-SNAPSHOT</sap.version>
+    <project.build.sourceEncoding>UTF8</project.build.sourceEncoding>
+    <java.version>11</java.version>
+    <encoding.format>UTF-8</encoding.format>
+    <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+    <spring-boot.version>2.7.18</spring-boot.version>
+    <liquibase-core.version>4.20.0</liquibase-core.version>
+    <lombok.version>1.18.30</lombok.version>
+    <h2-database.version>1.4.200</h2-database.version>
+    <sqlserver.version>12.4.2.jre11</sqlserver.version>
+    <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
+    <mockito.version>3.5.11</mockito.version>
+    <junit-jupiter.version>5.7.0</junit-jupiter.version>
+    <springdoc-openapi-starter-webmvc-ui.version>2.3.0</springdoc-openapi-starter-webmvc-ui.version>
+    <commons-collections4.version>4.4</commons-collections4.version>
+    <validation-api.version>2.0.1.Final</validation-api.version>
+    <jaxb-api.version>2.3.1</jaxb-api.version>
+  </properties>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven-compiler-plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>

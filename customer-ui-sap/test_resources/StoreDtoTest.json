@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "name": "storeName",
+  "description": "storeDescription",
+  "logo": "LOGO",
+  "categories": [
+    {
+      "id": 1,
+      "storeId": 1,
+      "name": "categoryName",
+      "description": "categoryDescription",
+      "image": "IMAGE",
+      "items": []
+    }
+  ]
+}

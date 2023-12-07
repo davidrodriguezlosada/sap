@@ -1,0 +1,27 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "100-004",
+        "author": "DRL",
+        "comment": "Add FK stores - categories",
+        "changes": [
+          {
+            "addForeignKeyConstraint": {
+              "baseColumnNames": "STORE_ID",
+              "baseTableName": "CATEGORIES",
+              "constraintName": "FK_CATEGORY_STORE",
+              "deferrable": false,
+              "initiallyDeferred": false,
+              "onDelete": "NO ACTION",
+              "onUpdate": "NO ACTION",
+              "referencedColumnNames": "ID",
+              "referencedTableName": "STORES",
+              "validate": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

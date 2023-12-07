@@ -1,0 +1,42 @@
+
+   SSSSSSSSSSSSSSS              AAA               PPPPPPPPPPPPPPPPP
+ SS:::::::::::::::S            A:::A              P::::::::::::::::P
+S:::::SSSSSS::::::S           A:::::A             P::::::PPPPPP:::::P
+S:::::S     SSSSSSS          A:::::::A            PP:::::P     P:::::P
+S:::::S                     A:::::::::A             P::::P     P:::::P
+S:::::S                    A:::::A:::::A            P::::P     P:::::P
+ S::::SSSS                A:::::A A:::::A           P::::PPPPPP:::::P
+  SS::::::SSSSS          A:::::A   A:::::A          P:::::::::::::PP
+    SSS::::::::SS       A:::::A     A:::::A         P::::PPPPPPPPP
+       SSSSSS::::S     A:::::AAAAAAAAA:::::A        P::::P
+            S:::::S   A:::::::::::::::::::::A       P::::P
+            S:::::S  A:::::AAAAAAAAAAAAA:::::A      P::::P
+SSSSSSS     S:::::S A:::::A             A:::::A   PP::::::PP
+S::::::SSSSSS:::::SA:::::A               A:::::A  P::::::::P
+S:::::::::::::::SSA:::::A                 A:::::A P::::::::P
+ SSSSSSSSSSSSSSS AAAAAAA                   AAAAAAAPPPPPPPPPP
+
+      _ _           _           _        _ _
+     | | |         (_)         | |      | | |
+   __| | |__ ______ _ _ __  ___| |_ __ _| | | ___ _ __
+  / _` | '_ \______| | '_ \/ __| __/ _` | | |/ _ \ '__|
+ | (_| | |_) |     | | | | \__ \ || (_| | | |  __/ |
+  \__,_|_.__/      |_|_| |_|___/\__\__,_|_|_|\___|_|
+
+
+https://manytools.org/hacker-tools/ascii-banner/
+Doh
+
+ :: Spring Boot ::   ${spring-boot.formatted-version}
+
+==============================================================================================
+Application build java version:   ${info.app.build.java}
+Application build enconding:      ${info.app.build.encoding}
+Application build maven version:  ${info.app.build.mavenversion}
+Application build name:           ${info.app.build.buildname}
+Application build parent version: ${info.app.build.parentversion}
+Application build timestamp:      ${info.app.build.buildtimestamp}
+APPLICATION NAME:                 ${spring.application.name}
+APPLICATION VERSION:              ${info.sap.version}
+INSTANCE TYPE:                    ${rdu.instance}
+==============================================================================================

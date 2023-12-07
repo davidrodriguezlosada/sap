@@ -1,0 +1,34 @@
+{
+  "databaseChangeLog": [
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-001.json"
+      }
+    },
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-002.json"
+      }
+    },
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-003.json"
+      }
+    },
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-004.json"
+      }
+    },
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-005.json"
+      }
+    },
+    {
+      "include": {
+        "file": "db/changelog/db.changelog-sap-100-006.json"
+      }
+    }
+  ]
+}

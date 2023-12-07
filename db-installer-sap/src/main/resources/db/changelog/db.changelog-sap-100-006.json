@@ -1,0 +1,38 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "100-006",
+        "author": "DRL",
+        "comment": "Add new columns to ITEM table",
+        "changes": [
+          {
+            "addColumn": {
+              "tableName": "ITEMS",
+              "columns": [
+                {
+                  "column": {
+                    "name": "PRICE",
+                    "type": "currency",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                },
+                {
+                  "column": {
+                    "name": "CURRENCY",
+                    "type": "nchar",
+                    "constraints": {
+                      "nullable": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

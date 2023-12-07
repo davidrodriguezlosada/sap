@@ -1,0 +1,27 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "100-005",
+        "author": "DRL",
+        "comment": "Add FK category - items",
+        "changes": [
+          {
+            "addForeignKeyConstraint": {
+              "baseColumnNames": "CATEGORY_ID",
+              "baseTableName": "ITEMS",
+              "constraintName": "FK_ITEM_CATEGORY",
+              "deferrable": false,
+              "initiallyDeferred": false,
+              "onDelete": "NO ACTION",
+              "onUpdate": "NO ACTION",
+              "referencedColumnNames": "ID",
+              "referencedTableName": "CATEGORIES",
+              "validate": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
